@@ -1,13 +1,153 @@
 body {
     font-family: helvetica;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+input[type='text'] {
+    background: none;
+    border: none;
+}
+
+button {
+    background: none;
+    border: none;
+    font-family: helvetica;
+}
+
+#header {
+    width: auto;
 }
 
 #nav li img {
-    position: absolute;
-    width: 20px;
-    height: 53px;
-    left: 275px;
-    top: 17px;
+    width: 10px;
+    height: 10px;
 }
 
-#nav li {}
+#logo {
+    width: 20%;
+    margin: 10px;
+}
+
+#nav {
+    width: 20%;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+#nav li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+#a {
+    font-weight: 200;
+}
+
+#b {
+    color: #6C6B6B;
+}
+
+#c {
+    color: #6C6B6B;
+}
+
+#d {
+    color: #6C6B6B;
+}
+
+#e {
+    color: #6C6B6B;
+}
+
+#f {
+    color: #6C6B6B;
+}
+
+#g {
+    color: #6C6B6B;
+}
+
+#nav li img {
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+    filter: brightness(20%);
+}
+
+#nav li button {
+    background: none;
+    border: none;
+    font-family: helvetica;
+    font-style: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+#line {
+    position: absolute;
+    width: 1117.26px;
+    height: 0px;
+    left: -15%;
+    border: 1px solid #E7D9D9;
+    transform: rotate(-90deg);
+}
+
+#home {
+    margin-left: 300px;
+    margin-top: -400px;
+}
+
+#insidehome input[type='text'] {
+    margin-top: -40px;
+}
+
+#home p {
+    font-weight: bold;
+}
+
+.vlog {
+    margin-left: 300px;
+    width: 640px;
+}
+
+#line3 {
+    position: absolute;
+    width: 735px;
+    height: 0px;
+    left: 330px;
+    top: 181px;
+    border: 1px solid #E7D9D9;
+}
+
+#last {
+    margin-top: -750px;
+    margin-left: 1000px;
+    width: 400px;
+    padding: 9px;
+}
+
+#search {
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 10px 20px;
+    margin: 10px;
+    margin-top: -40px;
+}
+
+#notice {
+    background: #F2F2F2;
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+}
+
+#line2 {
+    position: absolute;
+    width: 1117.26px;
+    height: 0px;
+    top: -30px;
+    left: 510px;
+    border: 1px solid #E7D9D9;
+    transform: rotate(-90deg);
+}
