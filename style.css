@@ -1,7 +1,9 @@
 body {
     font-family: helvetica;
     margin-left: 5%;
-    margin-top: 2%;
+    margin-top: 1%;
+    position: relative;
+    overflow-x: hidden;
 }
 
 input[type='text'] {
@@ -85,10 +87,10 @@ button {
 }
 
 #line {
-    position: absolute;
-    width: 1117.26px;
+    width: 4117.26px;
     height: 0px;
-    left: -15%;
+    display: inline-block;
+    margin-left: -1060px;
     border: 1px solid #E7D9D9;
     transform: rotate(-90deg);
 }
@@ -112,16 +114,34 @@ button {
 }
 
 #line3 {
-    position: absolute;
-    width: 735px;
+    width: 740px;
     height: 0px;
-    left: 330px;
-    top: 181px;
+    display: inline-block;
+    margin-left: -40px;
+    margin-top: 15px;
+    border: 1px solid #E7D9D9;
+}
+
+#line4 {
+    width: 740px;
+    height: 0px;
+    display: inline-block;
+    margin-left: -920px;
+    margin-top: 15px;
+    border: 1px solid #E7D9D9;
+}
+
+#line5 {
+    width: 740px;
+    height: 0px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 260px;
     border: 1px solid #E7D9D9;
 }
 
 #last {
-    margin-top: -750px;
+    margin-top: -1150px;
     margin-left: 1000px;
     width: 400px;
     padding: 9px;
@@ -143,11 +163,11 @@ button {
 }
 
 #line2 {
-    position: absolute;
-    width: 1117.26px;
+    width: 1817.26px;
     height: 0px;
     top: -30px;
-    left: 510px;
+    display: inline-block;
+    margin-left: -650px;
     border: 1px solid #E7D9D9;
     transform: rotate(-90deg);
 }
